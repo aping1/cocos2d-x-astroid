@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/cocos/physics/chipmunk/CCPhysicsBodyInfo_chipmunk.cpp \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/cocos/physics/chipmunk/CCPhysicsBodyInfo_chipmunk.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../cocos/base/ccConfig.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../cocos/platform/CCPlatformConfig.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../cocos/platform/CCPlatformMacros.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../cocos/platform/CCPlatformDefine.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../cocos/platform/mac/CCPlatformDefine-mac.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../cocos/base/CCRef.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/chipmunk.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/chipmunk_types.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpVect.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpBB.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpBody.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpShape.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpPolyShape.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpArbiter.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
+  /Users/allison/@Code/learncpp/astroid/astroid/cocos2d/build/../external/chipmunk/include/chipmunk/cpSpace.h
