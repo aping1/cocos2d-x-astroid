@@ -22,6 +22,7 @@ public:
     
     void GoToGameScene(Ref *pSender);
     void GoToMainMenuScene(Ref *pSender);
+    void der();
 };
 
 #endif /* defined(__astroid__GameOverScene__) */

@@ -7,7 +7,7 @@
 //
 
 #include "PauseScene.h"
-#include "GameScreen.h"
+#include "GameScene.h"
 #include "MainMenuScene.h"
 
 USING_NS_CC;
