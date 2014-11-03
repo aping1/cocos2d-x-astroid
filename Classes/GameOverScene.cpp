@@ -7,6 +7,8 @@
 //
 
 #include "GameOverScene.h"
+#include "GameScreen.h"
+#include "MainMenuScene.h"
 
 USING_NS_CC;
 
@@ -20,13 +22,14 @@ Scene * GameOver::createScene()
 
 bool GameOver::init()
 {
+    // Super init First
     if( !Layer::init())
     {
         return false;
     }
     
     Size visibleSize = Director::getInstance()->
-        geVisibleSize();
+        getVisibleSize();
     Point origin = Director::getInstance()->
         getVisibleOrigin();
     
