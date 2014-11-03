@@ -14,6 +14,7 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		3723194E1A06C8AE000065D0 /* spritesheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3723194D1A06C8AE000065D0 /* spritesheet.png */; };
 		37C882FA1A06FAEE00E26238 /* GameScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C882F81A06FAEE00E26238 /* GameScreen.cpp */; };
+		37C883001A07042F00E26238 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C882FE1A07042F00E26238 /* GameOverScene.cpp */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
@@ -111,6 +112,8 @@
 		3723194D1A06C8AE000065D0 /* spritesheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spritesheet.png; path = "../../learncpp/unfinished-asteroids/images/spritesheet.png"; sourceTree = "<group>"; };
 		37C882F81A06FAEE00E26238 /* GameScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScreen.cpp; sourceTree = "<group>"; };
 		37C882F91A06FAEE00E26238 /* GameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreen.h; sourceTree = "<group>"; };
+		37C882FE1A07042F00E26238 /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverScene.cpp; sourceTree = "<group>"; };
+		37C882FF1A07042F00E26238 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
@@ -239,9 +242,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
-				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* ios */,
 				503AE10617EB990700D1A890 /* mac */,
@@ -295,6 +298,8 @@
 				46880B8719C43A87006E1F66 /* MainMenuScene.h */,
 				37C882F81A06FAEE00E26238 /* GameScreen.cpp */,
 				37C882F91A06FAEE00E26238 /* GameScreen.h */,
+				37C882FE1A07042F00E26238 /* GameOverScene.cpp */,
+				37C882FF1A07042F00E26238 /* GameOverScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -494,6 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C883001A07042F00E26238 /* GameOverScene.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* MainMenuScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
