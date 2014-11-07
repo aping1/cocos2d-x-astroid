@@ -32,7 +32,7 @@ bool MainMenu::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
     auto menuTitle = MenuItemImage::create("MainMenuScreen/Game_Title.png",
-                                           "MainMenuScreen/Play_Button(Click).png");
+                                           "MainMenuScreen/Game_Title.png");
     
     auto playItem = MenuItemImage::create("MainMenuScreen/Play_Button.png",
                                           "MainMenuScreen/Play_Button(Click).png",
@@ -42,6 +42,9 @@ bool MainMenu::init()
     menu->alignItemsVerticallyWithPadding(visibleSize.height / 4);
     this->addChild(menu);
     
+    auto backgroundSprite = Sprite::create("MainMenuScreen/Background.png");
+    backgroundSprite->setPosition(Point((visibleSize.width / 2) + origin.x, (visibleSize.height / 2) + origin.y ));
+    this->addChild(backgroundSprite, -1);
     return true;
 }
 

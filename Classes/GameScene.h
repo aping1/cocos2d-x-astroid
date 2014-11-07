@@ -13,6 +13,10 @@
 
 class GameScreen : public cocos2d::Layer
 {
+private:
+    cocos2d::Sprite *backgroundSpriteArray[2];
+    std::vector<cocos2d::Sprite *> _asteroids;
+
 public:
     static cocos2d::Scene* createScene();
     virtual bool init();
@@ -21,6 +25,8 @@ public:
     
     void GoToPauseScene(Ref *pSender);
     void GoToGameOverScene(Ref * pSender);
+    void update(float dt);
+    void spawnAsteroid(float dt);
 };
 
 #endif /* defined(__astroid__GameScene__) */

@@ -15,11 +15,11 @@ AppDelegate::~AppDelegate()
 //it will takes effect on all platforms
 void AppDelegate::initGLContextAttrs()
 {
-    //set OpenGL context attributions,now can only set six attributions:
-    //red,green,blue,alpha,depth,stencil
-    GLContextAttrs glContextAttrs = {8, 8, 8, 8, 24, 8};
-
-    GLView::setGLContextAttrs(glContextAttrs);
+//    //set OpenGL context attributions,now can only set six attributions:
+//    //red,green,blue,alpha,depth,stencil
+//    GLContextAttrs glContextAttrs = {8, 8, 8, 8, 24, 8};
+//
+//    GLView::setGLContextAttrs(glContextAttrs);
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
@@ -92,7 +92,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
             glview->setDesignResolutionSize(320, 480, ResolutionPolicy::NO_BORDER);
         }
     }
-    
+
     fileUtils->setSearchPaths(resDirOrders);
     
     // create a scene. it's an autorelease object
